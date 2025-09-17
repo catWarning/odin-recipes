@@ -1,0 +1,53 @@
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f6f7f9;
+}
+
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2 { margin: 0.6em 0 0.4em; line-height: 1.25; }
+h1 { font-size: 28px; }
+h2 { font-size: 20px; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin: 12px 0 16px;
+}
+
+p { margin: 0.6em 0 1em; }
+
+ul, ol { padding-left: 1.25em; margin: 0.5em 0 1em; }
+li { margin: 0.35em 0; }
+
+/* section cards */
+.ingredients,
+.steps {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-top: 18px;
+}
+
+.ingredients h2,
+.steps h2 {
+  margin-top: 0;
+}
+
+.ingredients ul,
+.steps ol {
+  margin: 0.4em 0 0.2em 1em;
+  padding: 0;
+}
